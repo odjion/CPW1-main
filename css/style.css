@@ -1,0 +1,138 @@
+html { 
+    background: url("../img/deserto.jpg") no-repeat center center fixed; 
+    /* background: url(images/bg.jpg)  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: "Raleway", sans-serif; */
+}
+
+
+h2, h3 { font-family: "Raleway", sans-serif;}
+h3 {
+   color:  rgb(37, 73, 157);
+  font-weight: 800;
+}
+
+#container{
+    margin: 50px auto; /* insere margem externa*/
+    padding: 40px; /* insere margem interna*/
+    border: 1px solid gray; /* aplica borda de 1px em torno da caixa*/
+    border-radius: 7px; /*arredonda o canto da borda*/
+    background-color: rgba(255, 255, 255, 0.877);
+    width: 700px;
+
+
+}
+
+article {
+  margin-top: 30px;
+}
+table, td, th {  
+    border: 1px solid rgb(103, 155, 208);
+    text-align: left;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    /* width: 50%; */
+ 
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+  th {
+    background-color: #87d3efdd;
+    color: rgb(36, 115, 164);
+    text-align: center;
+  }
+
+  td:hover {background-color: rgba(255, 127, 80, 0.518);}
+
+  /* estilo do form */
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #6d96cb;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=text],  input[type=tel],  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+  }
+  
+  input[type=text], input[type=tel],  input[type=email]:focus {
+    background-color: lightblue;
+  }
+
+  /* estilizando links */
+
+  /* a {
+    padding: 5px;
+  }
+  a:link {
+    color:blue;
+  }
+  a:visited {
+    color: red;
+  }
+  a:hover {
+    color: brown;
+    background-color: rgb(205, 217, 248);
+  }
+  a:active {
+    color:rgb(6, 82, 30);
+  } */
+
+  /* estilo do menu */
+
+nav ul
+{
+padding-left: 0;
+margin-left: 0;
+background-color: rgb(63, 118, 174);
+color: White;
+float: left;
+width: 100%;
+font-family: arial, helvetica, sans-serif;
+}
+
+nav ul li { display: inline; }
+
+nav ul li a
+{
+padding: 0.2em 1em;
+background-color: rgb(63, 118, 174);
+color: White;
+text-decoration: none;
+float: left;
+border-right: 1px solid #fff;
+}
+
+nav ul li a:hover
+{
+background-color: #369;
+color: #fff;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px 5px 0;
+  float: left;
+}
